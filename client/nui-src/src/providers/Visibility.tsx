@@ -40,7 +40,7 @@ export const VisibilityProvider = ({
       <AnimationProvider show={visible}>
         <div
           className={clsx("h-screen", {
-            "flex items-center bg-slate-800": isEnvBrowser(),
+            "flex items-center": isEnvBrowser(),
           })}
         >
           {children}
