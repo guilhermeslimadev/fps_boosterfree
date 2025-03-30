@@ -66,8 +66,7 @@ AddEventHandler('fpsbooster:syncConfig', function(config)
     local source = source
     if not hasPermission(source) then return end
     
-    -- Aqui você pode adicionar lógica para salvar as configurações
-    -- em um banco de dados ou arquivo, se necessário
+
     
     if Config.Debug then
         print(string.format('[FPS Booster] Configurações sincronizadas para o jogador %s', GetPlayerName(source)))
